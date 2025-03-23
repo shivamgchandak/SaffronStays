@@ -1,0 +1,133 @@
+.container {
+    padding: 20px;
+    background-color: #000;
+  }
+  
+  .section1 {
+    width: 30%;
+    margin-bottom: 50px;
+    margin-left: 5%;
+  }
+
+  .section2 {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    width: 30%;
+    margin-left: 5%;
+  }
+  
+  .title1 {
+    font-family: Lora;
+    font-weight: 400;
+    font-size: 24px;
+    color: #ffffff;
+  }
+  
+  .amenitiesGrid {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 30px;
+  }
+  
+  .row {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .item p{
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 16px;
+    color: #888888;
+  }
+  
+  .buttonContainer {
+    margin-top: 20px;
+  }
+
+  .title2{
+    font-family: Lora;
+    font-weight: 400;
+    font-size: 24px;
+    color: #f2f2f2;
+  }
+  
+  .description {
+    margin-bottom: 16px;
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 16px;
+    color: #888888;
+  }
+  
+  .tags {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 16px;
+  }
+  
+  .veg {
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 16px;
+    color: #cccccc;
+  }
+
+  .vegcontainer{
+    display: flex;
+    gap: 10px;
+    flex-direction: row;
+  }
+  
+  
+  .buttons {
+    display: flex;
+    gap: 12px;
+  }
+  
+@media screen and (max-width:1020px) {
+
+  .container{
+    width: 100%;
+  }
+
+  .section1 {
+    width: 100%;
+    margin-left: 4%;
+  }
+
+  .section2 {
+    width: 50%;
+    margin-left: 4%;
+  }
+
+}
+
+@media screen and (max-width:740px) {
+
+  .section1 {
+    margin-left: 3%;
+  }
+
+  .section2 {
+    margin-left: 3%;
+  }
+
+}
+
+@media screen and (max-width:580px) {
+  .buttons {
+    display: flex;
+    flex-direction: column;
+  }
+
+}

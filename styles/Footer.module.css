@@ -1,0 +1,257 @@
+.main {
+    background-color: #333333;
+    color: white;
+    padding: 64px 0;
+    position: relative;
+  }
+  
+  .footercontainer {
+    max-width: 100%;
+    padding: 0 16px;
+  }
+  
+  .footertop {
+    margin-left: 80px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 80px;
+    margin-bottom: 64px;
+  }
+
+  .footermobile{
+    display: none;
+  }
+  
+  .section {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  
+  .section h1 {
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 18px;
+    color: #FFFFFFCC;
+    margin-bottom: 8px;
+  }
+  
+  .section p {
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 14px;
+    color: #FFFFFF99;
+    transition: color 0.2s;
+  }
+  
+  .section p:hover {
+    color: white;
+  }
+  
+  .section a {
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 14px;
+    color: #FFFFFF99;
+    text-decoration: underline;
+    transition: color 0.2s;
+  }
+  
+  .section a:hover {
+    color: white;
+  }
+  
+  .footerbottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #191919;
+    padding: 24px 16px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0;
+  }
+  
+  .footerbottom h1 {
+    margin-left: 80px;
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 12px;
+    color: #FFFFFF99;
+  }
+  
+  .footerbottom div {
+    margin-right: 80px;
+    display: flex;
+    gap: 16px;
+  }
+  
+  .footerbottom span {
+    width: 32px;
+    height: 32px;
+    background-color: #FFFFFF4D;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .footerbottom span:hover {
+    background-color: #374151;
+  }
+
+  .footerbottom .footerlogo{
+    display: none;
+  }
+
+
+  @media screen and (max-width:1020px) {
+    
+    .footertop {
+      margin-left: 20px;
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 30px;
+      margin-bottom: 64px;
+    }
+  
+    .footermobile{
+      display: none;
+    }
+    
+    .section {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+    
+    .section h1 {
+      font-family: Inter;
+      font-weight: 600;
+      font-size: 16px;
+      color: #FFFFFFCC;
+      margin-bottom: 8px;
+    }
+    
+    .section p {
+      font-family: Inter;
+      font-weight: 500;
+      font-size: 12px;
+      color: #FFFFFF99;
+      transition: color 0.2s;
+    }
+    
+    .section p:hover {
+      color: white;
+    }
+    
+    .section a {
+      font-family: Inter;
+      font-weight: 500;
+      font-size: 12px;
+      color: #FFFFFF99;
+      text-decoration: underline;
+      transition: color 0.2s;
+    }
+    
+    .section a:hover {
+      color: white;
+    }
+    
+    .footerbottom {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #191919;
+      padding: 24px 16px;
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      margin: 0;
+    }
+    
+    .footerbottom h1 {
+      margin-left: 80px;
+      font-family: Inter;
+      font-weight: 500;
+      font-size: 12px;
+      color: #FFFFFF99;
+    }
+    
+    .footerbottom div {
+      margin-right: 80px;
+      display: flex;
+      gap: 16px;
+    }
+    
+    .footerbottom span {
+      width: 32px;
+      height: 32px;
+      background-color: #FFFFFF4D;
+      border-radius: 50%;
+      cursor: pointer;
+      transition: background-color 0.2s;
+    }
+    
+    .footerbottom span:hover {
+      background-color: #374151;
+    }
+  
+    .footerbottom .footerlogo{
+      display: none;
+    }
+  
+  }
+
+
+  @media screen and (max-width:740px) {
+
+    .footertop{
+      margin-left: 10px;
+      margin-top: -50px;
+      display: flex;
+      gap: 50px;
+      flex-direction: column;
+    }
+  
+    .footermobile{
+      display:block;
+    }
+  
+    .section h1 {
+      font-size: 16px;
+    }
+  
+    .section p, .section a{
+      font-size: 14px;
+    } 
+  
+    .footerbottom{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 20px;
+      background-color: #444444;
+    }
+  
+    .footerbottom span{
+      display: none;
+    }
+  
+    .footerbottom .footerlogo{
+      display: block;
+      display: flex;
+      margin-left: 80px;
+    }
+  
+    .footerbottom h1{
+      margin-left: 0px;
+    }
+  
+  }
+    

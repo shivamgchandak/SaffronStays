@@ -1,0 +1,46 @@
+.main{
+    background-color: #000000;
+}
+
+.locationSection {
+    margin-top: -40px;
+    margin-left: 5%;
+    background-color: #000000;
+    color: #ffffff;
+    text-align: left;
+    padding: 60px 20px;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .heading {
+    font-family: Lora;
+    font-weight: 400;
+    font-size: 24px;
+    color: #f2f2f2;
+    margin-bottom: 20px;
+  }
+  
+  .mapContainer {
+    width: 100%;
+    max-width: 900px;
+    height: 300px;
+    margin-bottom: 30px;
+    border-radius: 12px;
+    overflow: hidden;
+    border: 1px solid #333333;
+  }
+
+@media screen and (max-width:1020px) { 
+  
+  .locationSection{
+    margin-left: 3%;
+  }
+  
+  .mapContainer {
+    max-width: 100%;
+  }
+}
+

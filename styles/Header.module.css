@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+   
+  .nav {
+    width: 100%;
+    height: 90px;
+    background-color: #000;
+    color: #fff;
+    padding: 16px 32px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .headerContainer {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 1440px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .headercontainermobile{
+    display: none;
+  }
+  
+  .leftSection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .searchContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 350px;
+    height: 50px;
+    transition: all 300ms ease-out;
+  }
+  
+  .searchContainerActive {
+    transform: scale(1.05);
+  }
+  
+  .searchBar {
+    display: flex;
+    align-items: center;
+    background-color: rgba(245, 245, 245, 0.2);
+    padding: 8px 16px;
+    border-radius: 35px;
+  }
+  
+  .searchBar input {
+    background: transparent;
+    border: none;
+    color: #ccc;
+    margin-left: 8px;
+    width: 200px;
+    height: 20px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+  }
+  
+  
+  .rightSection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  
+  .headerSaffronStays {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    width: 110px;
+    height: 24px;
+  }
+  
+  .saffronstaysText {
+    font-family: 'Catamaran', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: #fff;
+  }
+  
+  
+  .headerContact {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 160px;
+    height: 45px;
+    padding: 10px 20px;
+  }
+  
+  .contactText {
+    font-family: 'Catamaran', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #fff;
+  }
+  
+  .headerLogin {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .headerButton {
+    width: 102px;
+    height: 44px;
+    padding: 12px 34px;
+    background-color: #fff;
+    color: #000;
+    border: none;
+    border-radius: 100px;
+    font-family: 'Catamaran', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .headerButton:hover {
+    background-color: #f2f2f2;
+  }
+
+@media screen and (max-width: 1020px) {
+    .nav {
+      height: 75px;
+    }
+    
+    .headerContainer {
+      width: 100%;
+    }
+    
+    .leftSection {
+      gap: 15px;
+    }
+    
+    .searchContainer {
+      width: 280px;
+    }
+
+    .rightSection {
+      gap: 15px;
+    }
+
+    .headerContact{
+      display: none;
+    }
+    
+}
+
+@media screen and (max-width: 740px) {
+
+    .headerContainer{
+      display: none;
+    }
+    
+    .headercontainermobile{
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    
+    .mobileleft{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 50px;
+    }
+
+    .headerSaffronStaysMobile{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 5px;
+    }
+
+    .searchContainer {
+      width: 200px;
+    }
+    
+    .searchBar input {
+      width: 200px;
+    }
+    
+}
+
+@media screen and (max-width: 580px) {
+  .nav {
+    height: 60px;
+  }
+  
+  .mobileleft{
+    width: 100%;
+  }
+
+  .headerLogin{
+    display: none;
+  }
+
+  .searchContainer {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .input{
+    display: none;
+  }
+
+  .headerSaffronStaysMobile{
+    display: flex;
+    justify-content: flex-start;
+  }
+  
+}
+  
